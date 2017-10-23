@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>shader/pointcloud.frag</file>
+        <file>shader/pointcloud.vert</file>
+        <file>shader/surfel.frag</file>
+        <file>shader/surfel.vert</file>
+        <file>qml/TextLabelEntity.qml</file>
+    </qresource>
+</RCC>
