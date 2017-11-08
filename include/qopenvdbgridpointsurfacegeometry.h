@@ -24,6 +24,7 @@ public:
     void updateVertices();
 
     QOpenVDBGrid *grid() const;
+    // For datagenerator (invoke from other thread)
     Q_INVOKABLE void setVertexCount(int vertexCount);
 
     PointGenerationMethod generationMethod() const;
