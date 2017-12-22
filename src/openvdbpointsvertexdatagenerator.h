@@ -8,7 +8,6 @@
 #include <openvdb/tools/LevelSetUtil.h>
 #include <QByteArray>
 #include <Qt3DRender/QBufferDataGenerator>
-#include <Qt3DRender/QAttribute>
 #include <openvdb/openvdb.h>
 
 class OpenVDBPointsVertexDataGenerator : public Qt3DRender::QBufferDataGenerator /*Qt3DRender::QBufferFunctor*/

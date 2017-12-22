@@ -78,7 +78,7 @@ void QOpenVDBGridPointSurfaceGeometry::updateAttributes()
 
     m_p->m_grid->updateAttributes();
 
-    Qt3DRender::QAttribute* attrib = new Qt3DRender::QAttribute(this);
+    Qt3DRender::QAttribute* attrib = new Qt3DRender::QAttribute(nullptr);
     attrib->setName(Qt3DRender::QAttribute::defaultPositionAttributeName());
     attrib->setDataType(Qt3DRender::QAttribute::Float);
     attrib->setDataSize(3);
@@ -90,7 +90,7 @@ void QOpenVDBGridPointSurfaceGeometry::updateAttributes()
     addAttribute(attrib);
     setBoundingVolumePositionAttribute(attrib);
 
-    attrib = new Qt3DRender::QAttribute(this);
+    attrib = new Qt3DRender::QAttribute(nullptr);
     attrib->setName(Qt3DRender::QAttribute::defaultNormalAttributeName());
     attrib->setDataType(Qt3DRender::QAttribute::Float);
     attrib->setDataSize(3);
